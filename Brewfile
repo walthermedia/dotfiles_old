@@ -1,4 +1,4 @@
-tap "dracula/install
+tap "dracula/install"
 tap "Homebrew/bundle"
 tap "Homebrew/services"
 brew "arp-scan"
