@@ -1,6 +1,6 @@
 tap "dracula/install
-tap "homebrew/bundle"
-tap "homebrew/services"
+tap "Homebrew/bundle"
+tap "Homebrew/services"
 brew "arp-scan"
 brew "bottom"
 brew "libssh2"
