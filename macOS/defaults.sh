@@ -9,7 +9,7 @@
 set -e
 
 # Change new hostname here if necessary
-COMPUTER_NAME="Bizarro"
+COMPUTER_NAME="Gotham"
 
 # Quit System Preferences.app if open
 osascript -e 'tell application "System Preferences" to quit'
