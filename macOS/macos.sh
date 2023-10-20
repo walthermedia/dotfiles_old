@@ -20,6 +20,8 @@ sudo -v
 # Check for it and install from GitHub if it's not there
 if ! command -v brew &>/dev/null; then
   curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 # Disable analytics
