@@ -2,7 +2,7 @@
 
 set -e
 
-echo "🙏 Deep breaths, everything will (probably) be fine!"
+echo "Let's get this install going."
 echo ""
 
 # location of the *full repo* (defaults to ~/.dotfiles)
